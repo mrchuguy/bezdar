@@ -7,3 +7,5 @@ spl_autoload_register(function($class){
     }
     return false;
 });
+
+app\Router::init();
