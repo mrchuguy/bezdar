@@ -1,5 +1,13 @@
 <?php
+
 namespace core;
+
 class View {
-    //put your code here
+
+    public $template = 'main';
+
+    public function render() {
+	include_once 'vendor/views/templates/' . $this->template . '.php';
+    }
+
 }
