@@ -1,5 +1,7 @@
 <?php
-
+namespace app;
 class Router {
-    //put your code here
+    static public function init(){
+	
+    }
 }
