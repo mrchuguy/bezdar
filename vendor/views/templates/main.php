@@ -5,7 +5,7 @@
     </head>
     <body>
 	<?php
-	include_once $this->page;
+	include_once 'vendor/views/'.$this->page.'.php';
 	?>
     </body>
 </html>
